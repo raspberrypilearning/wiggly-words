@@ -7,20 +7,20 @@ hideturtle()
 line1 = list('Wiggly words')  # List from a string
 style1 = ('Courier', 20)
 
-line2 = list('growing up')  
+line2 = list('growing up')
 style2 = ('Times New Roman', 14)
 
-line3 = list('falling down')  
+line3 = list('falling down')
 style3 = ('Arial', 24)
 
-line4 = list('round and round ') 
+line4 = list('round and round ')
 style4 = ('Georgia', 18)
 
 line5 = list('and round and round they go')
 style5 = ('Georgia', 12)
 
 # first line
-goto(-150, 100)
+goto(-140, 140)
 right(90)
 color('hotpink')
 for i in range(len(line1)):  #  Gets length of a list
@@ -34,15 +34,15 @@ left(90)
 forward(30)
 left(90)
 color('dodgerblue')
-for i in range(len(line2)): 
+for i in range(len(line2)):
     write(line2[i], font=style2, align='center')
     forward(15)
- 
+
 # falling down
 right(120)
 forward(30)
 color('limegreen')
-for i in range(len(line3)): 
+for i in range(len(line3)):
     write(line3[i], font=style3, align='center')
     forward(randint(15,20))
     right(randint(2,3))

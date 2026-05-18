@@ -32,8 +32,8 @@ Add the spiral loop after your circle code.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 11-12
+line_number_start: 58
+line_highlights: 58-66
 ---
 # spiral
 goto(120, -50)

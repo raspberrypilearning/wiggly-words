@@ -15,7 +15,7 @@ line_highlights: 16-17
 ---
 style3 = ('Arial', 24)
 
-line4 = list('round and round ') 
+line4 = list('round and round ')
 style4 = ('Georgia', 18)
 --- /code ---
 
@@ -36,14 +36,14 @@ Use another loop and a turn angle to place words around a circle.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 39
-line_highlights: 43-49
+line_number_start: 46
+line_highlights: 50-56
 ---
     write(line3[i], font=style3, align='center')
     forward(randint(15,20))
     right(randint(2,3))
 
-# circle 
+# circle
 goto(80, 100)
 color('orange')
 for i in range(len(line4)):

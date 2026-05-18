@@ -10,7 +10,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 8
-line_highlights: 11-13
+line_highlights: 10-13
 ---
 # first line
 goto(-140, 140)

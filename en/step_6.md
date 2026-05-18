@@ -1,7 +1,7 @@
 ## Make more lines of poetry
 
 ### Step 1
-Add two more lists after `line1`. Replace the text with your own words. 
+Add two more lists after `line1`. Replace the text with your own words.
 
 <div class="c-project-code">
 
@@ -26,7 +26,7 @@ style3 = ('Arial', 24)
 </div>
 
 ### Step 2
-Add the loops for the text. 
+Add the loops for the text.
 
 <div class="c-project-code">
 
@@ -35,8 +35,8 @@ Add the loops for the text.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 19
-line_highlights: 22-39
+line_number_start: 28
+line_highlights: 31-48
 ---
     forward(15)
     right(randint(-8,8))
@@ -47,15 +47,15 @@ left(90)
 forward(30)
 left(90)
 color('dodgerblue')
-for i in range(len(line2)): 
+for i in range(len(line2)):
     write(line2[i], font=style2, align='center')
     forward(15)
- 
+
 # falling down
 right(120)
 forward(30)
 color('limegreen')
-for i in range(len(line3)): 
+for i in range(len(line3)):
     write(line3[i], font=style3, align='center')
     forward(randint(15,20))
     right(randint(2,3))
