@@ -1,45 +1,36 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## Draw a line of words
 
-A brief description - one or two sentences. 
+Use the code below and replace `'Wiggly words'` with your own text.
 
---- print-only ---
+<div class="c-project-code">
 
-![ALT TEXT](images/IMAGE.png)
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 4
+line_highlights: 7-8
+---
+penup()
 
---- /print-only ---
+# first line
+goto(-140, 140)
+write('Wiggly words', align='center')
+--- /code ---
 
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+### Now run your code
+The turtle moves to the top left.
 
-### You will need:
-- a
-- b
-- c
+<div class="c-project-output">
+
+![The words my wavy words appear near the top left of the turtle window](images/step1.png)
+
+</div>
+
+> ### Tip
+>
+> `align='center'` makes the words appear in a line. Try removing this to see it aligned to the left.
+{: .c-project-callout .c-project-callout--tip}

@@ -1,0 +1,4 @@
+name: "My wavy words"
+identifier: "my-wavy-words-starter"
+type: 'python'
+build: true

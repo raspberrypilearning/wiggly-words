@@ -1,14 +1,20 @@
-title: Project title in sentence case
+title: My wavy words
 hero_image: images/banner.png
-description: A short description of the project
+description: Draw some visual poetry.
 listed: false
+landing: true
 pdf: false
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Step 1
+  - title: Step 2
     completion:
       - engaged      
-  - title: Challenge
+  - title: Step 3
+  - title: Step 4
+  - title: Step 5
+  - title: Step 6
+  - title: Step 7
+  - title: Step 8
     challenge: true
     completion:
       - external
