@@ -10,7 +10,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 4
-line_highlights: 7-8
+line_highlights: 7-9
 ---
 penup()
 speed(20)

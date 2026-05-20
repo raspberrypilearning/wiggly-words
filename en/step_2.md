@@ -26,7 +26,7 @@ write(line1[0], align='center')
 > ### Tip
 >
 > The list stores each letter separately so you can use them one at a time.
-> `[0]` is the first letter, because computers start counting from 0.
+> `[0]` is first, because computers start counting from 0.
 {: .c-project-callout .c-project-callout--tip}
 
 
