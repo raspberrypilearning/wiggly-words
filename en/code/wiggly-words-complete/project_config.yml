@@ -1,4 +1,4 @@
-name: "My wavy words completed"
-identifier: "my-wavy-words-complete"
+name: "Wiggle words completed"
+identifier: "wiggly-words-complete"
 type: 'python'
 build: true

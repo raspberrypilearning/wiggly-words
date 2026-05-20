@@ -10,8 +10,8 @@ Add `line4` text and choose `style4` font.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 14
-line_highlights: 16-17
+line_number_start: 15
+line_highlights: 17-18
 ---
 style3 = ('Arial', 24)
 
@@ -36,8 +36,8 @@ Use another loop and a turn angle to place words around a circle.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 46
-line_highlights: 50-56
+line_number_start: 47
+line_highlights: 51-57
 ---
     write(line3[i], font=style3, align='center')
     forward(randint(15,20))

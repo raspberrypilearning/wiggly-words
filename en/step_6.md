@@ -10,8 +10,8 @@ Add two more lists after `line1`. Replace the text with your own words.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 10-14
+line_number_start: 8
+line_highlights: 11-15
 ---
 line1 = list('Wiggly words')  # List from a string
 style1 = ('Courier', 20)
@@ -35,8 +35,8 @@ Add the loops for the text.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 28
-line_highlights: 31-48
+line_number_start: 29
+line_highlights: 32-49
 ---
     forward(15)
     right(randint(-8,8))

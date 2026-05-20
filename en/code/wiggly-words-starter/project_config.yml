@@ -1,4 +1,4 @@
-name: "My wavy words"
-identifier: "my-wavy-words-starter"
+name: "Wiggly words"
+identifier: "wiggly-words-starter"
 type: 'python'
 build: true

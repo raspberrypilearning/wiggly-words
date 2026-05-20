@@ -9,9 +9,10 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 4
-line_highlights: 6, 10
+line_highlights: 7, 11
 ---
 penup()
+speed(20)
 
 line1 = list('Wiggly words')  # Make a list from your text
 

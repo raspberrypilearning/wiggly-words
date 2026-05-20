@@ -9,8 +9,8 @@ Replace the code that writes `line1[0]` with this loop.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 8
-line_highlights: 10-13
+line_number_start: 9
+line_highlights: 11-14
 ---
 # first line
 goto(-140, 140)

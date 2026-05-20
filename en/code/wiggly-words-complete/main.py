@@ -3,6 +3,7 @@ from random import randint
 
 penup()
 hideturtle()
+speed(20)
 
 line1 = list('Wiggly words')  # List from a string
 style1 = ('Courier', 20)

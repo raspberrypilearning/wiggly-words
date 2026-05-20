@@ -15,10 +15,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 4
-line_highlights: 5, 8, 13-14
+line_highlights: 5, 9, 14-15
 ---
 penup()
 hideturtle()
+speed(20)
 
 line1 = list('Wiggly words')  # List from a string
 style1 = ('Courier', 20)

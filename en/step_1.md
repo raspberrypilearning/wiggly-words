@@ -13,6 +13,7 @@ line_number_start: 4
 line_highlights: 7-8
 ---
 penup()
+speed(20)
 
 # first line
 goto(-140, 140)
@@ -22,7 +23,7 @@ write('Wiggly words', align='center')
 </div>
 
 ### Now run your code
-The turtle moves to the top left.
+The turtle moves to the top left. You can change the animation speed by editing the `speed()` value.
 
 <div class="c-project-output">
 

@@ -14,8 +14,8 @@ Play with random angles using `randint()` that adds a random wobble to each lett
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 8
-line_highlights: 14
+line_number_start: 9
+line_highlights: 15
 ---
 # first line
 goto(-140, 140)

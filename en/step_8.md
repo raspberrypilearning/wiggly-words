@@ -14,8 +14,8 @@ Add a new list and style for the spiral words.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 19
-line_highlights: 19-20
+line_number_start: 20
+line_highlights: 20-21
 ---
 line5 = list('and round and round they go')
 style5 = ('Georgia', 12)
@@ -32,8 +32,8 @@ Add the spiral loop after your circle code.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 58
-line_highlights: 58-66
+line_number_start: 59
+line_highlights: 59-67
 ---
 # spiral
 goto(120, -50)
