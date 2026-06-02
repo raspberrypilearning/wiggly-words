@@ -27,7 +27,7 @@ The turtle moves to the top left. You can change the animation speed by editing 
 
 <div class="c-project-output">
 
-![The words my wavy words appear near the top left of the turtle window](images/step1.png)
+![The words "wiggly words" appear near the top left of the turtle window](images/step1.png)
 
 </div>
 

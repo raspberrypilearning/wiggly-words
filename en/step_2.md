@@ -1,6 +1,6 @@
 ## Move the words into a list
 
-Add a list near the top of the code, and replace your text with `line1[0]`.
+Add a list near the top of the code, and replace your text with `phrase1[0]`.
 
 <div class="c-project-code">
 --- code ---
@@ -14,11 +14,11 @@ line_highlights: 7, 11
 penup()
 speed(20)
 
-line1 = list('Wiggly words')  # Make a list from your text
+phrase1 = list('Wiggly words')  # Make a list from your text
 
 # first line
 goto(-140, 140)
-write(line1[0], align='center')
+write(phrase1[0], align='center')
 --- /code ---
 
 </div>

@@ -20,8 +20,8 @@ line_highlights: 15
 # first line
 goto(-140, 140)
 right(90)
-for i in range(len(line1)): 
-    write(line1[i], align='center')
+for i in range(len(phrase1)): 
+    write(phrase1[i], align='center')
     forward(15)
     right(randint(-8,8))
 --- /code ---
@@ -30,11 +30,16 @@ for i in range(len(line1)):
 
 
 ### Now run your code
-
-The letters appear with a random wobble each time you run it. Experiment with different random values.
+The letters appear with a random wobble each time you run it. 
 
 <div class="c-project-output">
 
-![ADD](images/step4.png)
+![Wiggly words displayed vertically, with each letter tilted at a slightly different angle to create a random wobble effect](images/step4.png)
 
 </div>
+
+> ### Tip
+>
+> `Experiment with different random values.
+{: .c-project-callout .c-project-callout--tip}
+

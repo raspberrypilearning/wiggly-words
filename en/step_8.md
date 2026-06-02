@@ -17,7 +17,7 @@ line_numbers: true
 line_number_start: 20
 line_highlights: 20-21
 ---
-line5 = list('and round and round they go')
+phrase5 = list('and round and round they go')
 style5 = ('Georgia', 12)
 --- /code ---
 </div>
@@ -39,8 +39,8 @@ line_highlights: 59-67
 goto(120, -50)
 color('blueviolet')
 step = 10  # starting step size - gets bigger each time
-for i in range(len(line5)):
-    write(line5[i], font=style5, align='center')
+for i in range(len(phrase5)):
+    write(phrase5[i], font=style5, align='center')
     right(40)
     forward(step)
     step += 1  # increase this to spiral out more

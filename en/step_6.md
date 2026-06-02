@@ -1,7 +1,7 @@
 ## Make more lines of poetry
 
 ### Step 1
-Add two more lists after `line1`. Replace the text with your own words.
+Add two more lists after `phrase1`. Replace the text with your own words.
 
 <div class="c-project-code">
 
@@ -13,13 +13,13 @@ line_numbers: true
 line_number_start: 8
 line_highlights: 11-15
 ---
-line1 = list('Wiggly words')  # List from a string
+phrase1 = list('Wiggly words')  # List from a string
 style1 = ('Courier', 20)
 
-line2 = list('growing up')
+phrase2 = list('growing up')
 style2 = ('Times New Roman', 14)
 
-line3 = list('falling down')
+phrase3 = list('falling down')
 style3 = ('Arial', 24)
 --- /code ---
 
@@ -47,16 +47,16 @@ left(90)
 forward(30)
 left(90)
 color('dodgerblue')
-for i in range(len(line2)):
-    write(line2[i], font=style2, align='center')
+for i in range(len(phrase2)):
+    write(phrase2[i], font=style2, align='center')
     forward(15)
 
 # falling down
 right(120)
 forward(30)
 color('limegreen')
-for i in range(len(line3)):
-    write(line3[i], font=style3, align='center')
+for i in range(len(phrase3)):
+    write(phrase3[i], font=style3, align='center')
     forward(randint(15,20))
     right(randint(2,3))
 --- /code ---

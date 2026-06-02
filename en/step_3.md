@@ -1,6 +1,12 @@
 ## Make a loop for the first line
 
-Replace the code that writes `line1[0]` with this loop.
+Replace the code that writes `phrase1[0]` with this loop.
+
+> ### Tip
+>
+> The loop writes each letter in `phrase1` one at a time.
+{: .c-project-callout .c-project-callout--tip}
+
 
 <div class="c-project-code">
 
@@ -15,8 +21,8 @@ line_highlights: 11-14
 # first line
 goto(-140, 140)
 right(90)
-for i in range(len(line1)): 
-    write(line1[i], align='center')
+for i in range(len(phrase1)): 
+    write(phrase1[i], align='center')
     forward(15)
 --- /code ---
 
@@ -34,7 +40,7 @@ The letters in `Wiggly words` appear one at a time.
 
 > ### Tip
 >
-> `len(line1)` counts how many items are in the list.
+> `len(phrase1)` counts how many letters are in the list.
 {: .c-project-callout .c-project-callout--tip}
 
 > ### Debugging

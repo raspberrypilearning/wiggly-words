@@ -1,7 +1,7 @@
 ## Make words go around in a circle
 
 ### Step 1
-Add `line4` text and choose `style4` font.
+Add `phrase4` text and choose `style4` font.
 
 <div class="c-project-code">
 
@@ -15,7 +15,7 @@ line_highlights: 17-18
 ---
 style3 = ('Arial', 24)
 
-line4 = list('round and round ')
+phrase4 = list('round and round ')
 style4 = ('Georgia', 18)
 --- /code ---
 
@@ -26,7 +26,7 @@ Use another loop and a turn angle to place words around a circle.
 
 > ### Tip
 >
-> `360 / len(line4)` splits a full turn into equal parts.
+> `360 / len(phrase4)` splits a full turn into equal parts.
 {: .c-project-callout .c-project-callout--tip}
 
 <div class="c-project-code">
@@ -39,17 +39,17 @@ line_numbers: true
 line_number_start: 47
 line_highlights: 51-57
 ---
-    write(line3[i], font=style3, align='center')
+    write(phrase3[i], font=style3, align='center')
     forward(randint(15,20))
     right(randint(2,3))
 
 # circle
 goto(80, 100)
 color('orange')
-for i in range(len(line4)):
-    write(line4[i], font=style4, align='center')
+for i in range(len(phrase4)):
+    write(phrase4[i], font=style4, align='center')
     forward(20)
-    right(360 / len(line4)) #  turn fraction of a circle
+    right(360 / len(phrase4)) #  turn fraction of a circle
 --- /code ---
 
 </div>

@@ -15,21 +15,21 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 4
-line_highlights: 5, 9, 14-15
+line_highlights: 5, 9, 14, 16
 ---
 penup()
 hideturtle()
 speed(20)
 
-line1 = list('Wiggly words')  # List from a string
+phrase1 = list('Wiggly words')  # List from a string
 style1 = ('Courier', 20)
 
 # first line
 goto(-140, 140)
 right(90)
 color('hotpink')
-for i in range(len(line1)):  #  Gets length of a list
-    write(line1[i], font=style1, align='center')
+for i in range(len(phrase1)):  #  Gets length of a list
+    write(phrase1[i], font=style1, align='center')
 --- /code ---
 </div>
 
