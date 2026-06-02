@@ -2,4 +2,4 @@ from turtle import *
 from random import randint
 
 penup()
-speed(20)
+speed(10)

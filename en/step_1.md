@@ -13,11 +13,11 @@ line_number_start: 4
 line_highlights: 7-9
 ---
 penup()
-speed(20)
+speed(10)
 
 # first line
 goto(-140, 140)
-write('Wiggly words', align='center')
+write('My wiggly words', align='center')
 --- /code ---
 
 </div>

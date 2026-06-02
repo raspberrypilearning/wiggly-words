@@ -13,7 +13,7 @@ line_numbers: true
 line_number_start: 8
 line_highlights: 11-15
 ---
-phrase1 = list('Wiggly words')  # List from a string
+phrase1 = list('My wiggly words')  # List from a string
 style1 = ('Courier', 20)
 
 phrase2 = list('growing up')

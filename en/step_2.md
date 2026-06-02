@@ -12,9 +12,9 @@ line_number_start: 4
 line_highlights: 7, 11
 ---
 penup()
-speed(20)
+speed(10)
 
-phrase1 = list('Wiggly words')  # Make a list from your text
+phrase1 = list('My wiggly words')  # Make a list from your text
 
 # first line
 goto(-140, 140)
