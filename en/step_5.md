@@ -39,6 +39,6 @@ See the new style, and change the colour and font to how you want it.
 
 <div class="c-project-output">
 
-![add](images/step5.png)
+![The phrase "Wiggly words" appears vertically in a large pink font, with each letter drawn one at a time and the turtle hidden.](images/step5.png)
 
 </div>

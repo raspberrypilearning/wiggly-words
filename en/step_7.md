@@ -61,6 +61,6 @@ The words appear arranged in a circle on the right of the screen. Change the num
 
 <div class="c-project-output">
 
-![add](images/step7.png)
+![Three animated lines of poetry appear in different colours and directions, with an orange phrase arranged in a circle on the right side of the screen.](images/step7.png)
 
 </div>

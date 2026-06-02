@@ -68,6 +68,6 @@ Two more lines of the poem should animate. Experiment with the styles and positi
 
 <div class="c-project-output">
 
-![add](images/step6.png)
+![Three lines of poetry are drawn in different directions, styles, and colours, with letters appearing one at a time](images/step6.png)
 
 </div>
