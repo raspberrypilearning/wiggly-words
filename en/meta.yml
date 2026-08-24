@@ -1,7 +1,7 @@
 title: Wiggly words
 hero_image: images/banner.png
 description: Draw some visual poetry with Python.
-listed: true
+listed: false
 landing: true
 pdf: false
 steps:
