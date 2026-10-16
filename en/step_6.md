@@ -1,6 +1,5 @@
 ## Make more lines of poetry
 
-### Step 1
 Add two more lists after `phrase1`. Replace the text with your own words.
 
 <div class="c-project-code">
@@ -25,7 +24,6 @@ style3 = ('Arial', 24)
 
 </div>
 
-### Step 2
 Add the loops for the text.
 
 <div class="c-project-code">

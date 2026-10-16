@@ -4,7 +4,6 @@ Add text in a spiral, which looks like it is radiating from the centre, so it lo
 
 Work in the same way as the previous steps. Here is some code to help you get started.
 
-### Step 1
 Add a new list and style for the spiral words.
 
 <div class="c-project-code">
@@ -22,7 +21,6 @@ style5 = ('Georgia', 12)
 --- /code ---
 </div>
 
-### Step 2
 Add the spiral loop after your circle code.
 
 <div class="c-project-code">
