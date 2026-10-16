@@ -1,10 +1,10 @@
 ## Make the letters wiggly
 
-Play with random angles using `randint()` that adds a random wobble to each letter.
+Play with random angles using `randint()` to add a random wobble to each letter.
 
 > ### Tip
 >
-> `left(randint(-8,8))` chooses a random angle to turn the turtle left with, between -8 and 8 degrees. 
+> `left(randint(-8,8))` chooses a random angle to turn the turtle left, between -8 and 8 degrees. 
 {: .c-project-callout .c-project-callout--tip}
 
 <div class="c-project-code">
