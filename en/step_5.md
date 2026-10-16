@@ -1,6 +1,6 @@
 ## Style the text
 
-Change the font, size and colour to how you want.
+Change the font, size, and colour to how you want it.
 
 > ### Tip
 >
