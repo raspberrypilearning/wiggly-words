@@ -1,8 +1,8 @@
 ## Challenge: make a spiral
 
-Add a text in a spiral, which looks like it is radiating from the centre, it looks like a flower or a snail shell.
+Add text in a spiral, which looks like it is radiating from the centre, so it looks like a flower or a snail shell.
 
-Work in the same way as the previous steps, here is some code to help you get started.
+Work in the same way as the previous steps. Here is some code to help you get started.
 
 ### Step 1
 Add a new list and style for the spiral words.
