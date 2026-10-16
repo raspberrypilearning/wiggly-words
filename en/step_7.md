@@ -1,5 +1,6 @@
 ## Make words go around in a circle
 
+### Step 1
 Add `phrase4` text and choose `style4` font.
 
 <div class="c-project-code">
@@ -20,6 +21,7 @@ style4 = ('Georgia', 18)
 
 </div>
 
+### Step 2
 Use another loop and a turn angle to place words around a circle.
 
 > ### Tip
